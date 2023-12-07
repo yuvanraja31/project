@@ -1,0 +1,160 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: sans-serif;
+}
+.navbar
+{
+    position:sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem .5rem;
+    background-color: black;
+}
+.navbar .navbar-brand
+{
+    font-size: 25px;
+    font-weight: 500;
+    color: orangered!important;
+    /* margin-top: 10px; */
+}
+#navbar a
+{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbar a:hover
+{
+    border-bottom: 2px solid orangered;
+}
+#navbar button{
+    border-radius: 15px;
+    outline:2px solid orangered !important;
+    color: white;
+    margin-right: 10px;
+}
+#navbar button:hover{
+    color: white;
+    background: orangered;
+}
+.carousel-inner
+{
+    width: 100%;
+}
+.row img{
+    /* margin: 30px auto; */
+    border-radius: 2px;
+    width:100%;
+}
+.about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: orangered;
+    text-align: center;
+    margin: 30px auto;
+}
+.about p
+{
+    font-weight: 300;
+    font-size: 20px;
+}
+.about span{
+    font-size: 40px;
+    color: orangered;
+    font-weight: 500;
+}
+.menu h1
+{
+    color: orangered;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+
+}
+.card
+{
+    width: 250px;
+    height: 250px !important;
+    background: #e5e5e5 !important;
+    align-items: center;
+    border: none !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content:center!important;
+    margin: 20px 30%;
+}
+.image
+{
+    overflow: hidden;
+    background-size: cover;
+}
+.card img:hover
+{
+    transform: scale(1.5);
+}
+.card img{
+    height: 150px;
+    width: 100%;
+}
+.conatct img{
+    height: 100px;
+}
+.contact h1
+{
+    text-align: center;
+    color: orangered;
+    font-weight: 800;
+    font-size: 50px;
+}
+.box
+{
+    width: 80% !important;
+    margin-top: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.contact input
+{
+    margin: 10px 0;
+}
+.contact textarea
+{
+    margin: 10px 0;
+}
+footer
+{
+    background-color: black;
+    width: 100%;
+    height:70px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer i
+{
+    font-size: 25px;
+    display:inline-flex;
+    text-align: center;
+    padding-left: 25px;
+    overflow: hidden;
+}
+footer i:hover
+{
+    transform: scale(1.5);  
+}
+
+/* @media screen and (min-width:850px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        margin-inline-start: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    
+} */
